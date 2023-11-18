@@ -1,4 +1,4 @@
-describe('Test 3', () => {
+describe('Verify login form', () => {
   it('Verifying login form', () => {
     cy.visit('/forms/layouts');
     cy.get('#inputEmail3').click().type('test@test.com');
