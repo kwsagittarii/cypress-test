@@ -1,6 +1,6 @@
 describe('Verify modal window', () => {
   it('Checks the "Enter your name" modal window', () => {
-    cy.visit('/modal-overlays/dialog');
+    cy.visit('/pages/modal-overlays/dialog');
 
     // Checking the 'Enter Name' button
     cy.get('.form-input-card button').contains('Enter Name').click();
