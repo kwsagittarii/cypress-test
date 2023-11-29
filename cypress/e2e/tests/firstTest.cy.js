@@ -1,6 +1,6 @@
 describe('The first test suite', () => {
   it('First test', () => {
-    cy.visit('layout/stepper');
+    cy.visit('/pages/layout/stepper');
     cy.url().should('contain', 'stepper');
   })
 

@@ -1,6 +1,6 @@
 describe('Verify stepper page', () => {
   it('Checks text inside each step of the stepper', () => {
-    cy.visit('/layout/stepper');
+    cy.visit('/pages/layout/stepper');
 
     // Checking the first step
     cy.get('h3.ng-star-inserted').first().as("stepperText")
