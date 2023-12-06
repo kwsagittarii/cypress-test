@@ -35,3 +35,5 @@
 //     }
 //   }
 // }
+
+require('cypress-xpath');
